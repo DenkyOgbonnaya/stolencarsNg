@@ -1,0 +1,1 @@
+import "../public/javascript/reviews.js";

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="public/css/bootstrap.css">
+    <link rel="stylesheet" href="public/styles/reviews.css">
+</head>
+<body>
+    <div class="container-fluid">
+    <h3>VIN DECODER</h3>
+    <form action="/decodeVin" method="POST">
+        <p>Enter the Vehicle Identification number(VIN/Chasis) and press Decode. To get information
+            about your car.
+        </p>
+        <div >
+            <input type="text" name="vin" id="vin" placeholder="Enter VIN" required     class="form-control">
+            <br>
+            <input type="submit" name="submit" id="submit" value="Decode">
+        </div>
+    </form>
+    <br>
+    <div class="decodeAnim"> <p>Decoding VIN...</p>
+         <p><img src="public/images/gifs/loader.gif" alt=""></p> 
+        </div>
+        <div id="vinInfo"></div>
+</div>  
+<Script src="public/javascript/jquery-3.3.1.min.js"></Script>
+<script src="/dist/vindecode.min.bundle.js"></script>
+</body>
+</html>

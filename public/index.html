@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Stolencars-Nigeria's home of stolen cars</title>
+        <link rel="stylesheet" href="public/css/bootstrap.min.css">
+        <link rel="stylesheet" href="public/styles/darktheme.css" type="text/css" />
+    </head>
+    <body>
+            <nav>
+                <div id="header" class="container-fluid">
+                    <div class="row">
+                        <div class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
+                            <h1 id="heading">StolenCars**</h1>
+                            <form action="/searchCar" method="POST">
+                                <input type="search" placeholder="Enter VIN" id="carSearch" name="carSearch" />
+                                <input type="submit" value="Search" id="searchButton" name="searchButton">
+                                       
+                            </form>
+                        </div>
+                                
+                                
+                     </div>
+                </div>
+            </nav>
+        <div id="content" class="container-fluid">
+            <div class="feature" id="search_intro">
+                    <div id="searchResult"></div>
+                <div class="row">
+                    <div class="col-xs-3 col-sm-5 col-md-5 col-lg-5">
+                        <div class="menu_items">
+                                <ul>
+                                     <li><a href="report-stolen-car.html" >Report stolen car</a></li>
+                                     <li><a href="remove-stolen-car.html">Remove reported car</a></li>
+                                     <li><a href="vinDecoder.html">Decode VIN</a></li>
+                                     <li><a href="stolen-cars-statistics.html">Stolen cars statistics</a></li>
+                                     <li><a href="reviews.html">Reviews & Testimonials</a></li>
+                                     
+                                </ul>
+                                </div>
+                    </div>
+                    <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2"></div>
+                    <div class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
+                        <h3>Today's feature</h3>
+                        <img src="public/images/stolencars/featureCar.jpeg" class="img-responsive" height="200" width="350" alt="">
+                        <p id="feature"><span id="carMake">carMake</span>, <span id="model">model</span>, <span id="color">color</span> color, reportedly stolen
+                            on <span id="date">date</span>. if you have any information regarding the where about of this car, <a href="mailto:denkyogb@gmail.com">
+                            contact admin </a> or <a href="mailto:denkyogb@gmail.com">contact owner </a>
+                            </p>
+                    </div>
+                </div>
+            
+        </div>
+        
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <div id="footer">
+                    <P>Contact us</P>
+                    <ul>
+                        <li><a href="/" ><img src="public/images/icons/facebook_ic.png" alt=""></a></li>
+                        <li><b>|</b></li>
+                        <li><a href="mailto:denkyogb@gmail.com" ><img src="public/images/icons/gmail_ic.png" alt=""></a></li>
+                        <li><b>|</b></li>
+                        <li><a href="https://api.whatsapp.com/send?phone=2347069797882" ><img src="public/images/icons/whatsapp_ic.png" alt=""></a></li>
+                        </ul>
+                        <p><a href="about-stolen-cars.html">About us | Terms && Conditions</a></p>
+                        <p>(C) 2018, Dennis Ogbonnaya</p>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <script src="public/javascript/jquery-3.3.1.min.js"></script>
+    <script src="dist/index.min.bundle.js"></script>
+    </body>
+</html>

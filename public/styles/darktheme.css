@@ -1,0 +1,96 @@
+body{
+    background-color: #212121;
+    font-family: serif;
+    font-size: 16px;
+    color: #bdbdbd;
+}
+#search_intro{
+    margin-top: 170px;
+    margin-bottom: 0px;
+}
+
+#carSearch{
+    width: 60%;
+    height: 40px;
+    background-image: url("images/icons/menu_ic.png");
+    padding-left: 12xp;
+    border-radius: 5px;
+    background-color: #616161;
+    border-color: #616161;
+    text-transform: uppercase;
+}
+#searchButton{
+    height: 40px;
+    border-radius: 5px;
+    background-color: #f57f17;
+    color: white;
+}
+::placeholder{
+    color: #bdbdbd;
+}
+#heading{
+    color: #f57f17;
+    margin: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+}
+#footer{
+    background-color: #424242;
+    width: 100%;
+    border-top: 2px solid #212121;
+    border-bottom: 1px solid rgba(247, 247, 247, 0.986);
+    text-align: center;
+    bottom: 0px;
+    }
+div#footer > ul li{
+    display: inline;
+}
+
+div.menu_items > ul li a{
+    background-color: #424242;
+    border-bottom: 2px solid #212121;
+    padding: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #bdbdbd;
+    display: block;    
+    
+}
+div.menu_items > ul li{
+    list-style-type: none;
+} 
+div.menu_items > ul li a:hover{
+    background-color: #616161;
+}
+#header{
+    top: 0px;
+    padding: 10px;
+    margin: 0px;
+    width: 100%;
+    background-color: #424242;
+    position: fixed;
+    z-index: 10;
+}
+#about{
+    float: right;
+    text-decoration: none;
+    color: #bdbdbd;
+}
+/*
+*The generated car tempate CSS goes below
+*/
+
+.guide{
+    border-width: 1px;
+    border-color: grey;
+    border-style: solid;
+    background-color: #424242;
+    
+}
+#car{
+    margin-bottom: 5px;
+}
+#info{
+text-align: center;
+color: #f57f17;
+}

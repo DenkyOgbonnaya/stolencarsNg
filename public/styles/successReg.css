@@ -1,0 +1,27 @@
+body{
+    background-color: #212121;
+    color: #bdbdbd;
+}
+h3{
+    margin-top: 5px;
+    color: #f57f17;
+}
+#stolenCar{
+    width: 30%;
+    height: 150px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+li{
+    list-style-type: none;
+}
+#car{
+    border-width: 1px;
+    border-color: grey;
+    border-style: solid;
+    background-color: #424242;
+}
+#info{
+text-align: center;
+color: #f57f17;
+}

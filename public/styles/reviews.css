@@ -1,0 +1,46 @@
+body{
+    background-color: #212121;
+    color: #bdbdbd;
+}
+#comment {
+    background-color: #424242;
+    border: 3px solid #bdbdbd;
+    color: white;
+    margin-left: 10px;
+    padding-bottom: 10px;
+}
+h3{
+    color: #f57f17;
+}
+h5{
+    color: #f57f17;
+}
+#post, #submit{
+    
+    background-color: #424242;
+    height: 40px;
+    width: 150px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    color: white;
+    border: 2px solid #bdbdbd;
+}
+.form-control{
+    background-color: #616161;
+    color: white
+}
+hr{
+    background-color: #616161;
+}
+.decodeAnim{
+    display: none;
+    border-width: 1px;
+    border-color: #212121;
+    width: 200px;
+    margin: auto;
+    border-style: solid;
+    background-color: #212121;
+}
+.decodeAnim > p {
+    text-align: center
+}
