@@ -3,7 +3,7 @@ let countriesCodes = require('../models/countryData'),
 manufacturersCodes = require('../models/manufacturerData'),
 bodyStyleCodes = require('../models/bodyStyleData'),
 engineCodes = require('../models/engineData'),
-modelYearCodes = require('../models/modelyearData')
+modelYearCodes = require('../models/modelYearData')
 vinValidator = require(__dirname+'/vinValidator');
 
 let getCountry = function(countryCode){
