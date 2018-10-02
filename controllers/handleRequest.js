@@ -7,8 +7,9 @@ let validateInputs = require(__dirname+'/validatesInputs');
 let vinDecoder = require(__dirname+'/vinDecoder');
 
 let urlencodedParser = bodyParser.urlencoded({extended: false});
+let mongoDB = process.env.MONGODB_URI || 'mongodb://denkyltd:denkyltd1@ds219983.mlab.com:19983/stolencars'
 //connect to db
-mongoose.connect('mongodb://denkyltd:denkyltd1@ds219983.mlab.com:19983/stolencars', function(err){
+mongoose.connect(mongoDB, function(err){
     if(err) throw err;
     console.log('connected to stolencars db');
 });
