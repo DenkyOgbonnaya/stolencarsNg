@@ -1,1 +1,0 @@
-import "../public/javascript/regform.js";
