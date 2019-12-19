@@ -88,7 +88,7 @@ const DecodeVinComponent = () => {
                         padding:5px;
                     }
                     .decode_container img {
-                        width: 30%;
+                        width: 40%;
                         height: 400px;
                     }
                 }

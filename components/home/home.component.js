@@ -49,7 +49,7 @@ const HomeComponent = () => {
                     <p>Use our system to verify the theft status in seconds!</p>
                     <form className="form-inline" onSubmit={handleSearch}>
                         <input type="text" name="vin" onChange = { e => setVin(e.target.value)} placeholder="enter VIN here" className="form-control" />
-                        <button type="search" className="btn btn-warning" disabled={isLoading}>
+                        <button type="search" className="btn btn-warning decode_btn" disabled={isLoading}>
                             {isLoading ? "Verifying..." : "Verify"}
                         </button>
                     </form>
@@ -124,8 +124,15 @@ const HomeComponent = () => {
             width: 100%;
             padding:20px;
             opacity: 0.9;
-            margin-top: 14%;
+            margin-top: 17%;
+            padding-top:40px;
         }
+        .decode_btn {
+            margin-top: 10px;
+        }
+        .service_description .btn {
+        margin-right:5px;
+    }
         .description {
             margin-top: 3%;
             
@@ -181,7 +188,8 @@ const HomeComponent = () => {
         }
         @media only screen and (min-width: 65.625em) {
             .search_field {
-                margin-top: 5%;
+                margin-top: 4%;
+                padding-top:40px;
             }
             .card_main {
                 display: flex;
@@ -200,6 +208,9 @@ const HomeComponent = () => {
             .services img {
                 width: 30%;
                 height: 400px;
+            }
+            .decode_btn {
+                margin-top: 0px;
             }
         }
     `}</style>
