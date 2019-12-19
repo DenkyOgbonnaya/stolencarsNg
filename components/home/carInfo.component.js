@@ -56,9 +56,9 @@ const CarInfoComponent = ({carInfo}) => {
             <div className="jumbotron notify">
                 <h3>Take Action!</h3>
                 <p>If after going through the car documents, and you have doubt the seller is 
-                    the actual owner of the car. You may wish to <b>report to your local Police</b> or 
-                    <Link href={`/notify-owner/${"djjj399"}`}><a>notify the owner</a></Link>
-                   (the car registerer).</p>
+                    the actual owner of the car. You may wish to <b>report to your local Police</b> or  
+                    <Link href={`/notify-owner/${carInfo.vin}`}><a>notify the owner</a></Link>
+                    (the car registerer).</p>
             </div>
             <style jsx>{`
         .home_container {

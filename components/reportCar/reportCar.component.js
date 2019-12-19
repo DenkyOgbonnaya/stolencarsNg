@@ -193,7 +193,7 @@ const ReportCarComponent = () => {
                                 onClick ={ () => fileInput.current.click()}
                             >
                                 <span>click to select or drag and drop here...</span>
-                                <input type="file" ref={fileInput} hidden onChange={e => onFileChange(e.target.files[0])} name="image" />
+                                <input type="file" accept='image/*' ref={fileInput} hidden onChange={e => onFileChange(e.target.files[0])} name="image" />
                             </div>
                             <div>Selected file: { image && image.name} </div>
 
